@@ -1,0 +1,81 @@
+/*reklam kısmı css kodları  */
+
+ 
+.cta-pro {
+  width: 100%;
+  background: #0c0c0c; /* siyah arka plan */
+  display: flex;
+  justify-content: center;
+  overflow: hidden; /* kayan yazının taşmasını önler */
+  padding: 60px 0;
+}
+
+.cta-wrapper {
+  width: 85%;
+  max-width: 1440px;
+  padding: 28px 0;
+  text-align: center;
+
+  
+}
+
+/* Kayan efekt için wrapper */
+.cta-marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+
+/* Animasyon tanımı */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Başlık */
+.cta-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 59px;
+  line-height: 64px;
+  letter-spacing: -0.02em; /* -2% */
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+/* Renkler span bazında */
+.cta-title .master {
+  color: #BEA69E;
+}
+
+.cta-title .your-photo {
+  color: #FFFFFF;
+}
+
+.cta-title .skills {
+  color: #BEA69E;
+}
+
+/* Responsive ayarlar */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .cta-title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+}
+
+/* Telefon */
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
