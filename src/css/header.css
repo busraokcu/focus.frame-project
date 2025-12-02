@@ -14,6 +14,9 @@ body {
   max-width: 375px;
   margin: 0 auto;
   padding: 0;
+  background-image: url('../img/Vector-3.png'), url('../img/Graphic.png');
+  background-repeat: repeat-x, repeat;
+  background-size: auto, auto;
 }
 
 header {
@@ -160,6 +163,9 @@ ul li:first-child {
     max-width: 768px;
     padding: 0;
     margin: 0 auto;
+    background-image: url('../img/Vector-3.png'), url('../img/Graphic.png');
+    background-repeat: repeat-x, repeat;
+    background-size: auto, auto;
   }
   header {
     width: 704px;
@@ -287,6 +293,9 @@ ul li:first-child {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0;
+    background-image: url('../img/Vector-3.png'), url('../img/Graphic.png');
+    background-repeat: repeat-x, repeat;
+    background-size: auto, auto;
   }
 
   header {
@@ -385,6 +394,7 @@ ul li:first-child {
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+    text-decoration: none;
   }
   .header-button:hover {
     background: #1d1d1d;
