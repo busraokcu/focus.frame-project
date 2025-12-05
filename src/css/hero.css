@@ -215,9 +215,12 @@ h1 {
 
     width: 16.67px;
     height: 15.85px;
-    border: 1.5px solid rgba(18, 18, 18, 1);
+    
+    background-color: rgba(190, 166, 158, 1);
     fill: none;
     stroke: rgba(18, 18, 18, 1);
+
+    opacity: 1;
 
 }
 
